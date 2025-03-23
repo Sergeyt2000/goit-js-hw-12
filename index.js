@@ -5,7 +5,7 @@ import{a as A,S as E,i as c}from"./assets/vendor-Dn3QujGD.js";(function(){const 
             class="gallery-image"
             src="${o}"
             alt="${t}" 
-            title="${t.slice(0,30)}"
+            title="${t.slice(0,50)}"
             width="360"
             height="152"
           />
