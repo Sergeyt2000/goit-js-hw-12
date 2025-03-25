@@ -16,7 +16,7 @@ jobs:
           npm install
           npm run build
         env:
-          VITE_API_KEY: ${{ secrets.VITE_API_KEY }}  
+          VITE_API_KEY: ${{ env.VITE_API_KEY }}  
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
