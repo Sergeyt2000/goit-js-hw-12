@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const myApiKey = '49287257-770ce306313139aeab99da771';
-const myApiKey = import.meta.env.VITE_API_KEY;
+const myApiKey = '49287257-770ce306313139aeab99da771';
+// const myApiKey = import.meta.env.VITE_API_KEY;
 const url = 'https://pixabay.com/api/';
 
 export async function fetchData(searchQuery, currentPage) {
